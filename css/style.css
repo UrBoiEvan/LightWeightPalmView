@@ -19,9 +19,12 @@ a:link {
 }
 
 .navbar a:visited {
-  color: #c9d4e8;
+  color: #c9d4e8 !important;
 }
 
+.nav-link a:visited {
+  color: #c9d4e8;
+}
 
 .gallery img {
   width: 300px;
