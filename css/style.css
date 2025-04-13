@@ -18,6 +18,10 @@ a:link {
   font-weight: bold;
 }
 
+.navbar a:visited {
+  color: #c9d4e8;
+}
+
 
 .gallery img {
   width: 300px;
