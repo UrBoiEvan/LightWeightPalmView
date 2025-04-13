@@ -10,36 +10,217 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
       <!-- Brand name -->
-      <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3">
-      <a class="navbar-brand" href="index.html" style="font-weight: 500">Palm View Home Tour</a>
-      <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3">
-
+       <div class="container" style="max-width: 400px; margin-left: 0px;">
+        <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3">
+        <a class="navbar-brand" href="index.html" style="font-weight: 500">Palm View Home Tour</a>
+        <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3">
+       </div>
+      
       <!-- Hamburger button for small screens -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- Navbar links (collapsed on small screens) -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
 
-  Portfolio page
+  <script src="javascript/photoswipe.umd.min.js"></script>
+  <script src="javascript/photoswipe-lightbox.umd.min.js"></script>
+  
+  <link rel="stylesheet" href="css/photoswipe.css">
+  <h1 class="display-5 text-center fw-bold mt-5">Featured Photo Gallery</h1>
+
+  <div class="container-md">
+    <div class="test-gallery">
+      <div class="row" style="padding: 10px;">
+      <!-- Image 1 -->
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (1).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (1).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (2).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (2).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (3).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (3).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (4).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (4).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (5).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (5).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (6).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (6).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (7).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (7).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (8).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (8).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (9).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (9).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (10).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (10).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (11).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (11).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (12).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (12).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (13).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (13).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (14).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (14).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (15).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (15).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (16).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (16).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (17).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (17).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (18).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (18).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (19).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (19).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (20).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (20).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (21).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (21).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (22).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (22).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (23).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (23).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mt-4">
+          <a href="images/portfolio/Sample (24).jpg" data-pswp-width="1200" data-pswp-height="800" class="gallery-item">
+            <img src="images/portfolio/Sample (24).jpg" class="img-fluid rounded" alt="Property showcase" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-md" style="padding-top: 20px;">
+    <br>
+    <h1 class="display-5 text-center fw-bold mt-3">Video Walkthrough Showcase</h1>
+    <br><br>
+  </div>
+  <div class="container-md">
+      <!-- Video as a PhotoSwipe item -->
+      <div class="row" style="padding: 10px;">
+        <div class="col-lg-6 col-sm-12">
+          <div class="video-wrapper">
+            <iframe 
+            class="rounded"
+            src="https://www.youtube.com/embed/zptV5_sAdYs"
+            style="top: 0; left: 0; width: 100%; height: 375px;"
+            frameborder="0"
+            allowfullscreen>      
+            </iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="video-wrapper">
+            <iframe 
+            class="rounded"
+            src="https://www.youtube.com/embed/GRlia0fY7QE"
+            style="top: 0; left: 0; width:100%; height: 375px;"
+            frameborder="0"
+            allowfullscreen>      
+            </iframe>
+          </div>
+        </div>
+      </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+
+  
+  <script type="text/javascript">
+    var lightbox = new PhotoSwipeLightbox({
+      gallery: '.test-gallery',
+      children: 'a',
+      // dynamic import is not supported in UMD version
+      pswpModule: PhotoSwipe 
+    });
+    lightbox.init();
+  </script>
 
 
   <!-- ✅ Bootstrap JS bundle for navbar and collapse -->
