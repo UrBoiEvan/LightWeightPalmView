@@ -62,3 +62,25 @@ video {
 }
 
 
+@media (max-width: 420px) {
+
+  .hide-on-small {
+    display: none; /* Hides elements with this class on small screens */
+
+  }
+
+  .container, .container-md {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+ 
+}
+
+@media (max-width: 370px) {
+
+  .hide-on-tiny {
+    display: none; /* Hides elements with this class on small screens */
+
+  }
+
+}

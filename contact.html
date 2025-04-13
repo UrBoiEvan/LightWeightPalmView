@@ -5,6 +5,7 @@
   <title>Contact</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <link rel="icon" href="images/PalmTreeSoloBlue.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
   <!-- Google Font for Montserrat%> -->
@@ -18,28 +19,26 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
-      <!-- Brand name -->
-       <div class="container" style="max-width: 400px; margin-left: 0px;">
-        <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3">
+      <!-- Logo and brand in one group -->
+      <div class="navbar-brand-group d-flex align-items-center">
+        <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3 hide-on-tiny">
         <a class="navbar-brand" href="index.html" style="font-weight: 500">Palm View Home Tour</a>
-        <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3">
-       </div>
+        <img src="images/PalmTreeSoloBlue.svg" alt="TreeLogo" style="height: 30px;" class="me-3 hide-on-small">
+      </div>
       
-      <!-- Hamburger button for small screens -->
+      <!-- Hamburger button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- Navbar links (collapsed on small screens) -->
-      <div class="container">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+      
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -50,17 +49,20 @@
   <form action="https://getform.io/f/bwnqolra" method="POST">
     <div class="container-md" style="padding: 5%;">
       <div class="row" style="max-width: 1000px; margin: auto;">
-        <div class="col-3 mb-3">
+        <div class="col-md-3">
           <label for="name" class="form-label">Name</label>
           <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
           <label for="email" class="form-label mt-2">Email</label>
           <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
-          <button type="submit" class="btn btn-dark w-100 mt-4">Send Message</button>
         </div>
-        <div class=" col-9 mb-3">
-          <label for="message" class="form-label">Tell me about your listing</label>
+        <div class=" col-md-9 mb-3">
+          <label for="message" class="form-label mt-2">Tell me about your listing</label>
         <textarea class="form-control" id="message" name="message" rows="5" placeholder="Describe the property, timeline, or ask a question…" required></textarea>
         </div>
+        <div class="col-md-3 mb-3">
+          <button type="submit" class="btn btn-dark w-100 mt-4">Send Message</button>
+        </div>
+
       </div>
     </div>
   </form>
@@ -68,9 +70,6 @@
 
   <br><br>  <br><br>
 
-  <div class="container-md">
-    <image src="images/Logo Banner.png" alt="Contact" style="width: 100%;"></image>
-  </div>
 
 
   <!-- ✅ Bootstrap JS bundle for navbar and collapse -->
