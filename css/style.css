@@ -29,7 +29,10 @@ a:visited {
 .nav-link a:visited {
   color: #c9d4e8 !important;
 }
-
+nav {
+  position: sticky;
+  top: 0;
+}
 .gallery img {
   width: 300px;
   border-radius: 8px;
